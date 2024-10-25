@@ -39,9 +39,9 @@ Calorie Counter é uma aplicação desenvolvida em HTML, CSS e JavaScript para a
 
 ## Tecnologias Utilizadas
 
-**HTML**: Estrutura e conteúdo da aplicação.
-**CSS**: Estilização para uma interface limpa e intuitiva.
-**JavaScript**: Lógica para adicionar, atualizar e remover itens e calcular o total de calorias.
+- **HTML**: Estrutura e conteúdo da aplicação.
+- **CSS**: Estilização para uma interface limpa e intuitiva.
+- **JavaScript**: Lógica para adicionar, atualizar e remover itens e calcular o total de calorias.
 
 ## Contribuição
 
