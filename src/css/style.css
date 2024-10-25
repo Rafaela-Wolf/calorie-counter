@@ -1,17 +1,21 @@
 body {
-    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     background-color: var(--fcc-blue);
     color: var(--light-grey);
 }
 
-h1 {
-    text-align: center;
-}
-
 .container {
     width: 90%;
-    max-width: 680px;
+    max-width: 650px;
+    height: 90%;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
 }
 
 h1, .container, .output {
@@ -19,28 +23,35 @@ h1, .container, .output {
 }
 
 label, legend {
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
 }
 
 .input-container {
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 button {
     cursor: pointer;
     text-decoration: none;
     background-color: var(--light-yellow);
-    border: 2px solid var(--dark-yellow);
+    padding: 5px;
 }
 
 button, input, select {
     min-height: 24px;
     color: var(--dark-blue);
+    padding: 5px;
+    border: none;
 }
 
 fieldset, label, button, input, select {
     margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
 }
 
 .output {
